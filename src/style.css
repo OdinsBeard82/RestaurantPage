@@ -1,0 +1,14 @@
+body {
+    text-align: center;
+    margin: 20px;
+}
+
+h3 { 
+    color: blueviolet;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+img {
+    max-height: 500px;
+}

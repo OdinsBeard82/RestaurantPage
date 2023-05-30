@@ -3,3 +3,5 @@
     e.textContent = "Restaurant Page";
     document.querySelector("body").append(e);
 })();
+
+document.addEventListener()
