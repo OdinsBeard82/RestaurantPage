@@ -1,11 +1,7 @@
-import workImage from './assets/view.png'; 
-import './style.css';
-const title = document.createElement('h3');
-title.innerText = 'View';
+const tabs = [
+    {}
+]
 
-const page = document.querySelector('body');
-page.append(title);
-
-const img = new Image();
-img.src = workImage;
-page.appendChild(img);
+function createTabElement(tab) {
+    const LI
+}
