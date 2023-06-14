@@ -32,3 +32,25 @@ experience the magic of extraordinary cuisine that will leave you \
 craving for more.';
 
 page.appendChild(copy);
+
+export function createMenu4() {
+    // Create the home container
+    const homeContainer = document.createElement('div');
+    homeContainer.classList.add('home');
+  
+    // Create the new page button
+    const homePageButton = document.createElement('button');
+    homePageButton.textContent = 'Home';
+    homePageButton.classList.add('homePage-button');
+    homeContainer.appendChild(homePageButton);
+  
+    // Append the menu container to the document body
+    document.body.appendChild(homeContainer);
+  
+    // Event listener for button click to toggle new page
+    homePageButton.addEventListener('click', () => {
+      // Clear the document body
+      document.body.innerHTML = '';
+
+    });
+};

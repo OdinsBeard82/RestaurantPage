@@ -4,6 +4,7 @@ body {
 }
 
 h3 {
+  font-size: 30px;
   color: rgba(45, 43, 41, 0.794);
   background-color: rgba(119, 69, 37, 0.861);
   padding: 20px;
@@ -28,13 +29,24 @@ img {
   position: relative;
   display: inline-block;
 }
+.menu:hover {
+  transform: skew(-5deg, -10deg);
+}
 .drinks {
   position: relative;
   display: inline-block;
 }
+
+.drinks:hover {
+  transform: skew(-5deg, -10deg);
+}
 .events {
   position: relative;
   display: inline-block;
+}
+
+.events:hover {
+  transform: skew(-5deg, -10deg);
 }
 
 .dropdown-button {
