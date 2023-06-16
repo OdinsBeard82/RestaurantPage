@@ -4,12 +4,10 @@ import { createMenu1 } from './modules/tab1.js';
 import { createMenu2 } from './modules/tab2.js';
 import { createMenu3 } from './modules/tab3.js';
 
-
 createMenu1();
 createMenu2();
 createMenu3();
 
-  
 const title = document.createElement('h3');
 title.innerText = 'Valhalla';
 
@@ -34,23 +32,22 @@ craving for more.';
 page.appendChild(copy);
 
 export function createMenu4() {
-    // Create the home container
-    const homeContainer = document.createElement('div');
-    homeContainer.classList.add('home');
-  
-    // Create the new page button
-    const homePageButton = document.createElement('button');
-    homePageButton.textContent = 'Home';
-    homePageButton.classList.add('homePage-button');
-    homeContainer.appendChild(homePageButton);
-  
-    // Append the menu container to the document body
-    document.body.appendChild(homeContainer);
-  
-    // Event listener for button click to toggle new page
-    homePageButton.addEventListener('click', () => {
-      // Clear the document body
-      document.body.innerHTML = '';
+  // Create the home container
+  const homeContainer = document.createElement('div');
+  homeContainer.classList.add('home');
 
-    });
-};
+  // Create the new page button
+  const homePageButton = document.createElement('button');
+  homePageButton.textContent = 'Home';
+  homePageButton.classList.add('homePage-button');
+  homeContainer.appendChild(homePageButton);
+
+  // Append the menu container to the document body
+  document.body.appendChild(homeContainer);
+
+  // Event listener for button click to toggle new page
+  homePageButton.addEventListener('click', () => {
+    // reload page
+    location.reload();
+  });
+}

@@ -1,5 +1,5 @@
-import { createMenu1 } from '/Users/danielturbak-charles/RestaurantPage/src/modules/tab1.js';
-import { createMenu2 } from '/Users/danielturbak-charles/RestaurantPage/src/modules/tab2.js';
+import { createMenu1 } from './tab1.js';
+import { createMenu2 } from './tab2.js';
 import { createMenu4 } from '/Users/danielturbak-charles/RestaurantPage/src/index.js';
 
 export function createMenu3() {

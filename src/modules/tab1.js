@@ -1,5 +1,5 @@
-import { createMenu2 } from '/Users/danielturbak-charles/RestaurantPage/src/modules/tab2.js';
-import { createMenu3 } from '/Users/danielturbak-charles/RestaurantPage/src/modules/tab3.js';
+import { createMenu2 } from './tab2.js';
+import { createMenu3 } from './tab3.js';
 import { createMenu4 } from '/Users/danielturbak-charles/RestaurantPage/src/index.js';
 
 export function createMenu1() {
@@ -32,7 +32,7 @@ export function createMenu1() {
     const menuTitle = document.createElement('h1');
     menuTitle.textContent = 'Food in Valhalla';
     const menuContent = document.createElement('p');
-    menuContent.textContent = 'Insert your menu content here.';
+    menuContent.textContent = 'The Mighty Thor Burger.';
     const menuImage = document.createElement('img');
     menuImage.src = '/Users/danielturbak-charles/RestaurantPage/src/assets/menu.jpg';
     menuImage.alt = 'Description of the image';
